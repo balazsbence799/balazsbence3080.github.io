@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+:root {
+    background-color: #222;
+    background: linear-gradient(#428 0%, #222 100%) no-repeat center fixed;
+    color: #fff;
+    font-family: "Changa", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-weight: 550;
+}
+nav {
+    display: block;
+    top: 0;
+    position: sticky;
+    font-size: 1.15rem;
+    background-color: rgba(0, 0, 0, 0.727);
+}
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+}
+nav li {
+    display: inline;
+    float: left;
+}
+nav li a {
+    display: block;
+    padding: 2px 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: ease-out 0.5s color;
+}
+nav li a:hover {
+    color: #ccc;
+}
+nav li a:active {
+    color: #aaa;
+    transition: none;
+}
+
+figure#fotok {
+    text-align: center;
+}
+
+.rtxkep {
+    transition: ease-out 250ms;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.rtxkep:hover {
+    opacity: 0.8;
+    transform: scale(1.25);
+}
+
+.rtxkep2 {
+    transition: ease-out 250ms;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.rtxkep2:hover {
+    opacity: 0.8;
+    transform: scale(1.25);
+}
+.veddmegleir {
+    display:inline;
+    float:right;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    overflow: auto;
+    text-align: center;
+}
+.veddmeg {
+    overflow: auto;
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-bottom: 25px;
+    padding: 5px 70px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    background-color: #80d;
+    box-shadow: #0006 0 3px 5px;
+    display: inline;
+    float: right;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: ease-out 0.25s;
+}
+.veddmeg:hover {
+    background-color: #50a;
+    scale: 1.1;
+}
+.veddmeg:active {
+    background-color: #308;
+    scale: 1.05;
+    transition: none;
+}
+
+.kapcsolat{
+    margin-right: 20px auto;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 10px 20px;
+}
+caption, th, tr, td {
+    border: #fff 2px solid;
+}
+td, caption {
+    background-color: #427;
+}
+caption {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+div.specifi1, div.specifi2 {
+    width: 49%;
+    display: inline;
+    margin: 0 auto;
+    float: left;
+}
+.vasarlas {
+    display: block;
+    position: static;
+}
+.vasarlas div {
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 50%;
+    display: inline;
+}
+div.vasarbal {
+    float: left;
+}
+div.vasarjobb {
+    float: right;
+}
+.threedimensionalmodel {
+    text-align: center;
+    scale: 2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 800px;
+}
+
+.ytvid{
+    display: inline-block;
+    width: 200px;
+    margin-inline: 800px;
+}
+
+.list2 {
+    margin: 0 auto;
+}
+.specifi1, .specifi2 {
+    width: 20%;
+    overflow: auto;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.rtxd{
+    margin-left: 100px;
+}
+
+.rtxvid{
+    margin-left: 300px;
+}
